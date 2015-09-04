@@ -68,14 +68,14 @@ class Ubuntu(Debian):
     DEVELOPER_URL = "http://developer.ubuntu.com/"
 
     def get_app_name(self):
-        return _("Ubuntu Software Center")
+        return _("Shop")
 
     def get_app_id(self):
         return "ubuntu-software-center"
 
     def get_app_description(self):
         return _("Lets you choose from thousands of applications available "
-                 "for Ubuntu.")
+                 "for LyneOS.")
 
     def get_distro_channel_name(self):
         """ The name in the Release file """
